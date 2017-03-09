@@ -160,6 +160,14 @@ Media Query
         z-index: 1;
 
     }
+    figcaption h4{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+    figcaption p{
+        display: none;
+    }
 
     
 }
@@ -212,6 +220,18 @@ Media Query
 	.tagline {
 		font-size: 1.4em;
 	}
+
+    figcaption{
+        padding-bottom: .3em;
+    }
+
+    figcaption h4{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+  
+
 
 	/* ---- Float clearfix ---- */
 
