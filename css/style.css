@@ -148,6 +148,18 @@ Media Query
     .main-header{
         text-align: center;
     }
+        body{
+            padding-top: 103.78px;
+        }
+     .main-header{
+        position: fixed;
+        background: #fff;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+        top:0;
+        width: 100%;
+        z-index: 1;
+
+    }
 
     
 }
