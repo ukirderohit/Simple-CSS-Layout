@@ -37,6 +37,22 @@ img {
     /*display: none;*/
 }
 
+figure{
+    margin: 0;
+    line-height: 0;
+    position: relative;
+}
+
+figcaption{
+    font-size: .9em;
+    line-height: 1;
+    color: #fff;
+    padding: 1em;
+    background: rgba(19, 43, 102, .85);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
 
 
 /* ================================= 
@@ -138,6 +154,9 @@ Media Query
 
 
 @media (min-width: 769px) {
+    body{
+        padding-top: 94.78px;
+    }
 
 	.container {
 		width: 90%;
@@ -149,6 +168,15 @@ Media Query
 		float: left;
 	}
 
+    .main-header{
+        position: fixed;
+        background: #fff;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+        top:0;
+        width: 100%;
+        z-index: 1;
+
+    }
 	.primary,
 	.secondary {
 		width: 50%;
