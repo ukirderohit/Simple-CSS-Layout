@@ -65,10 +65,16 @@ img {
 }
 
 /* ---- Layout Containers ---- */
+    
+   .col{
+      padding: 0 1em;
+   }
 
     .banner {
         color: #fff;
         background: #3acec2;
+        padding: 3.2em 0;
+       margin-bottom: 60px;
     }
 
     .main-footer {
@@ -77,15 +83,15 @@ img {
         margin-top: 30px;
     }
 
+    .main-header{
+        padding-top: .5em;
+    	padding-bottom: .5em;
+    }
+
     .container{
             padding: 10px 0;
         }
    
-   /*Banner */
-   .banner{
-       padding: 3.2em 0;
-       margin-bottom: 60px;
-   }
    .banner,
    .main-footer{
        text-align: center;
@@ -98,16 +104,60 @@ img {
 .feat-img {
 	width: 100%;
 }
-
+.headline{
+    margin-bottom: 0;
+}
 
 /*********************
 Media Query
 *********************/
 
-@media (min-width: 792px){
+@media (min-width: 769px) {
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.name,
+	.col {
+		float: left;
+	}
+
+	.primary,
+	.secondary {
+		width: 50%;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+
+	.tagline {
+		font-size: 1.4em;
+	}
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}
+
+
+@media (min-width: 1025px){
 
     .container{
         width: 85%;
+        max-width: 1150px;
         margin: 0 auto;
             }
    
@@ -134,10 +184,12 @@ Media Query
        float: left;
    }
 
+    .primary{
+        width: 40%;
+    }
    .secondary,
-   .primary,
    .tertiary{
-       width: 33.33%;
+       width: 30%;
        padding-right: 2em;
    }
     /**Clear Fix Float**/
