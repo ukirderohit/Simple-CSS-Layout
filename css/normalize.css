@@ -78,6 +78,7 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 
+
 hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
@@ -92,6 +93,17 @@ hr {
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
+}
+
+/*Lists*/
+ol,ul {
+  margin: 0;
+  padding:0;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 /* Text-level semantics
@@ -459,3 +471,8 @@ template {
 [hidden] {
   display: none;
 }
+
+
+
+
+
