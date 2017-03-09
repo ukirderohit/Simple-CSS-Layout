@@ -4,13 +4,13 @@ A Simple CSS Layout Challenge (No Framework Used)
 ###[See the - Demo](http://ukirderohit.me/Simple-CSS-Layout/)
 
 ### Screen Size < 768px
-![Responsive Layout](http://ukirderohit.me/Simple-CSS-Layout/img/mobile.jpg)
+![Responsive Layout](http://ukirderohit.me/Simple-CSS-Layout/img/mobile.gif)
 --------------
 ### Screen Size > 768px and Screen Size < 1025px
-![Tablet Layout](http://ukirderohit.me/Simple-CSS-Layout/img/tablet.jpg)
+![Tablet Layout](http://ukirderohit.me/Simple-CSS-Layout/img/tablet.gif)
 --------------
 ### Screen Size > 1025px
-![Desktop Layout](http://ukirderohit.me/Simple-CSS-Layout/img/pc.jpg)
+![Desktop Layout](http://ukirderohit.me/Simple-CSS-Layout/img/pc.gif)
 
 
 ### Task :- Develop an HTML page based off the design.
