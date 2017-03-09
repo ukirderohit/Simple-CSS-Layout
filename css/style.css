@@ -1,43 +1,149 @@
-*{
-    box-sizing: border-box;
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
 }
 
-img{
-    display: none;
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
 }
 
-.container{
-    width: 70%;
-    margin: 0 auto;
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
 }
 
-.banner{
-    background: #2ECFC3;
+h2,
+h3,
+a {
+	color: #093a58;
 }
 
-/*Header Contents*/
-
-.name{
-    float: left;
-    background: white;
+h2,
+h3 {
+	margin-top: 0;
 }
 
-.name a{
-    color: #00284B;
+a {
+	text-decoration: none;
 }
 
-.main-nav {
-    float: right;
-}
-
-.main-nav a{
-    float: left;
+img {
+	max-width: 100%;
+    /*display: none;*/
 }
 
 
-/**Clear Fix Float**/
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+}
+
+.name a,
+.main-nav a {
+	text-align: center;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+/* ---- Layout Containers ---- */
+
+    .banner {
+        color: #fff;
+        background: #3acec2;
+    }
+
+    .main-footer {
+        background: #d9e4ea;
+        padding: 2em 0;
+        margin-top: 30px;
+    }
+
+    .container{
+            padding: 10px 0;
+        }
+   
+   /*Banner */
+   .banner{
+       padding: 3.2em 0;
+       margin-bottom: 60px;
+   }
+   .banner,
+   .main-footer{
+       text-align: center;
+   }
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 190px;
+}
+.feat-img {
+	width: 100%;
+}
+
+
+/*********************
+Media Query
+*********************/
+
+@media (min-width: 792px){
+
+    .container{
+        width: 85%;
+        margin: 0 auto;
+            }
+   
+   .name {
+       float: left;
+   }
+   
+   .main-nav{
+       float: right;
+   }
+
+   .main-nav li{
+       float: left;
+   }
+
+   .main-nav a{
+       display: inline-block;
+       margin: 1em 10px;
+       padding: 0 10px;
+   }
+   /************** Columns 3 ***********/
+
+   .col{
+       float: left;
+   }
+
+   .secondary,
+   .primary,
+   .tertiary{
+       width: 33.33%;
+       padding-right: 2em;
+   }
+    /**Clear Fix Float**/
+    .clearfix::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
 }
