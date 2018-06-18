@@ -1,21 +1,21 @@
 # Simple-CSS-Layout
 A Simple CSS Layout Challenge (No Framework Used)
 
-###[See the - Demo](http://ukirderohit.me/Simple-CSS-Layout/)
+### [See the - Demo](https://ukirderohit.com/Simple-CSS-Layout/)
 
 ### Screen Size < 768px
-![Responsive Layout](http://ukirderohit.me/Simple-CSS-Layout/img/mobile.gif)
+![Responsive Layout](https://ukirderohit.com/Simple-CSS-Layout/img/mobile.gif)
 --------------
 ### Screen Size > 768px and Screen Size < 1025px
-![Tablet Layout](http://ukirderohit.me/Simple-CSS-Layout/img/tablet.gif)
+![Tablet Layout](https://ukirderohit.com/Simple-CSS-Layout/img/tablet.gif)
 --------------
 ### Screen Size > 1025px
-![Desktop Layout](http://ukirderohit.me/Simple-CSS-Layout/img/pc.gif)
+![Desktop Layout](https://ukirderohit.com/Simple-CSS-Layout/img/pc.gif)
 
 
 ### Task :- Develop an HTML page based off the design.
 ### Design 
-![Desktop Layout](http://ukirderohit.me/Simple-CSS-Layout/best-city-guide.png) 
+![Desktop Layout](https://ukirderohit.com/Simple-CSS-Layout/best-city-guide.png) 
 
 
 ### Fork, then clone
